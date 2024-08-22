@@ -1,0 +1,9 @@
+## Bash
+ls ../01_Intro/ |xargs -n 1 touch
+
+$ i=12 ; cat website-$i.html a$i*.js > ../istest-migration/a12_all.txt
+
+
+for f in *.html; do
+    mv -- "$f" "${f%.html}.php"
+done

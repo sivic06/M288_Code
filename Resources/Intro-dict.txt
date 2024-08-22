@@ -1,0 +1,78 @@
+From https://dictation.io/speech
+
+
+slide 0
+
+ Bis jetzt hatten sie HTML5 und CSS3 als Grundlage gehabt.  Sie haben damit verschiedene ansprechende Webseiten erstellt.
+ in der folgenden Slideshow möchte ich Ihnen die Programmiersprache JavaScript ein wenig näher bringen und deren Merkmale aufzeigen.
+
+Aus diesem Grund möchte ich kurz die Aufgaben der drei Web-Technologien repetieren .
+
+<click>
+
+slide 1
+
+HTML5 ist für den Aufbau der Webseite verantwortlich.  die webseite ist hierarchisch aufgebaut. Das  Stichwort dazu ist das Document Object Model, abgekürzt DOM, dass wir später anschauen werden.
+
+<click>
+
+anschließend ist das Styling mit CSS für das Aussehen der Webseite verantwortlich . dazu haben sie ihn der letzten leistungsbeurteilung anhand eines CSS Frameworks Erfahrungen gesammelt
+
+<click>
+
+und zu guter Letzt ist JavaScript für dessen Steuerung resp. Verhalten zuständig.
+JavaScript war teilweise im CSS Framework integriert ohne, dass sie es zuerst gemerkt haben.  Zum Beispiel beim bilderkarussell oder Slider werden die Bilder- Übergänge nicht von HTML oder CSS alleine verursacht. Da kommt teilweise JavaScript ins Spiel
+
+
+
+slide 2
+Dann ein paar Fakten zu JS:
+
+<click>
+
+JavaScript ist eine objektorientierte Programmiersprache (OOP).
+
+ Das bedeutet, dass Sie mit JS die Realität anhand von JS-Objekten abbilden, man sagt dem abstrahieren können.  Wir werden das Thema objektorientiert nur teilweise anwenden und vor allem in bestimmten Situationen deren Vorteile nutzen.
+
+<click>
+
+JavaScript ist die einzige Programmiersprache für Webclients (Frontend). Zur Wiederholung: HTML5 und CSS sind keine Programmier- sondern Auszeichnungssprachen sog. Markup-Languages.
+
+Javascript   ist die einzige Programmiersprache welche das Verhalten von Web clients verändern kann.  einfache Beispiele sind die Validierung von Benutzereingaben. Dazu werden die Eingaben von Benutzern überprüft.  am anderen Ende der Komplexitätsstufe könnte ein web-basiertes Game oder Simulationen  erwäht werden,  welche Animationen und die User Interaktionen steuern.
+
+
+<click>
+
+JavaScript und Java sind zwei verschiedene Sprachen und sie unterscheiden sich wesentlich!
+
+<click>
+
+Professionelle Web-Frontend Frameworks wie Angular, React und Vue.js bauen auf JavaScript auf  und verwenden diese auch zum Programmieren. Das bedeutet, dass
+Sie mit JavaScript eine aktuelle Technologie vor sich haben. Das zeigt sich auch
+in den Version, welche jährlich herausgegeben werden.
+
+<click>
+
+Seit dem Release von Node.js im 2009 dient JavaScript auch für die serverseitige Programmierung (Backend).  Dieses Thema betrachten wir im Detail in den späteren Informatik-Modulen, wenn Sie  unter anderem mit Datenbanken  arbeiten werden.
+
+ In diesem Modul werden Node.js aus praktischen Gründen verwenden . es erleichtert die Ausgabe, wenn sie JavaScript programmieren.
+
+
+
+Slide 3
+
+Um besser zu verstehen, wo JavaScript in diesem Kurs ausgeführt wird, verwende ich das Client-Server-Modell. Dieses Modell besteht im einfachsten Fall aus einem Client <click>  das ist ihr Browser
+
+
+
+und einem Webserver <click>,  der noch Zugriff auf Ihr Filesystem hat.  auf dem File-System befinden sich zum Beispiel die HTML-, CSS- und JavaScript-Dateien,  welche WICHTIG im Browser ausgeführt werden.
+
+
+Der Ablauf ist wiefolgt: über die url setzt der Benutzer eine Anfrage anhand der sogenannten HTTP-Request ab.  Falls die url korrekt ist, werden alle Dateien geladen. In unserem Fall sind das HTML, CSS und JavaScript Dateien.
+
+Der Server antwortet mit der sog. HTTP response und sendet die Daten aus den Dateien an Client.  Der Browser interpretiert und stellt Seite korrekt dar. wichtig ist in diesem Modell festzuhalten, dass JavaScript beim Client ausgeführt wird.  In anderen Worten ist HTML, CSS und JavaScript clientseitiger code . in späteren Modulen werden  werden sie auch die serverseitige Programmierung mit Javascript kennenlernen .
+
+Slide 4 - Versionen
+
+Slide 5 - Setup
+

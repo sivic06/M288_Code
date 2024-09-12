@@ -13,16 +13,25 @@ Thema: Vergleichsoperatoren und Boolean (Wahrheitswerte)
 
 /*
 Beispiel 1 - Werte miteinander vergleichen und ausgeben
- */
+ *
 
-let a = 5;
+let a = 8;
 let b = 5;
-console.log(a == b);
+
+let a_grossergleich_b = a >= b;
+
+console.log(a_grossergleich_b);
+
+/*
 
 a = 5; b = '5';
 console.log(a == b);
 console.log(a === b);
 
+
+
+
+/*
 a = 5; b = 5;
 console.log(a != b);
 
@@ -33,11 +42,19 @@ console.log(a !== b);
 
 /*
 Beispiel 2 - Datentyp überprüfen mit typeof
- */
+ **/
 
 //Datentyp mit typeof überprüfen
+
 let city = 'Zürich';
-console.log(typeof city == 'string');
+city = 5;
+console.log(typeof city);
+
+console.log(typeof city == 'number');
+
+
+
+/*
 console.log(`city ist vom Typ ${typeof city}`);
 
 let zahl1 = 5;
@@ -49,3 +66,4 @@ console.log(typeof zahl2 == 'string');
 let object1 = undefined;
 console.log(typeof object1 == "undefined");
 console.log(`object1 ist vom Typ ${typeof object1}`);
+*/

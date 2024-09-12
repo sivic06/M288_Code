@@ -9,15 +9,24 @@ nicht ein mathematisches Gleichheitszeichen!!!
 /*
 Beispiel 1 - Stadt und Land ausgeben
  */
-let city = 'Zürich';
+let city = 'Bern';
 const country = 'Schweiz';
-console.log(city);
-console.log(country);
+
+city = 'Zürich';
 
 //Verbindung von zwei Strings
-let location = city + ', ' + country;
+const KOMMA = ', ';
+
+let location = city + KOMMA + country;
 console.log(location);
 
+let plz = '8000';
+location = plz + ' ' + city + KOMMA + country;
+console.log(location);
+
+// 8000 Zürich, Schweiz
+
+/*
 //neue Stadt setzen
 city = "Bern";
 location = city + ', ' + country;
@@ -33,3 +42,4 @@ console.log(location);
 
 
 
+*/

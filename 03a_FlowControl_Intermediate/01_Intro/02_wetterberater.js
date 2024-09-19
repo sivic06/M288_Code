@@ -9,13 +9,16 @@ Beispiel 1 - Wetterberater
 let args = process.argv.slice(2);
 console.log("Argumente: ", args);
 let temp = args[0];
+
 console.log("Temperatur: ", temp);
+
 
 if (temp === undefined){
     console.log(`You need to define the temperature! Try again.`);
 } else {
     // Logical And Operator '&&' - True if both sides are true. False otherwise
     // Logical Or Opeartor '||' - True if at least one side is true. False otherwise
+    
     if (10 <= temp && temp <= 20) {
         console.log('Das Wetter ist kühl!');
     }

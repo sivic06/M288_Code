@@ -6,11 +6,12 @@ are computed correctly.
  */
 'use strict';
 //Assign to variable 'age' i.e. 35 which means 35 years old
-//??
+let age = 5
 //if the age is 6 or younger, then admission is free
-//??
-//??
-//??
+if (age <= 6) {
+  console.log(`Admission is free for people of the age ${age}.`)
+}
+
 //if age is younger than 16, then there is a child discount
 //??
 //??

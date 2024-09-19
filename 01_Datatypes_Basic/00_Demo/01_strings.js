@@ -6,3 +6,5 @@ Das '='-Zeichen ist ein Zuweisung-Operator und
 nicht ein mathematisches Gleichheitszeichen!!!
  */
 
+let firstName = 'levinIschEnLutscher';
+console.log(firstName)

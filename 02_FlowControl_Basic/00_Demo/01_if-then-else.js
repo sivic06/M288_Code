@@ -6,4 +6,10 @@ Thema: if-then-else ("wenn-dann-sonst", conditional statements)
 Example 1 - Traffic Light
  */
 
+let color = 'red';
+console.log(`trafic light is ${color}`)
+
+if (color == 'red') {
+    console.log('Drive you busty Motherfucker');
+}
 

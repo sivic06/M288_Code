@@ -8,6 +8,8 @@ $ node a01-A.js
 Traffic light is undefined
 OUT OF ORDER
 
+
+
 $ node a01-A.js red
 Traffic light is red
 DON'T WALK!
@@ -23,10 +25,31 @@ WALK
 */
 'use strict';
 //Read (parse) argument
-//??
-//??
+let myArg = process.argv.slice(2)
+console.log(`Argumente: `, myArg)
+
+let trafficlight = myArg[0]
+
 //??
 //Check with if-then-else
+if (trafficlight === undefined) {
+  console.log(`Traffic light is ${myArg}`)
+  console.log(`OUT OF ORDER`);
+}
+else if (trafficlight === `red`){
+  console.log(`Traffic light is red`)
+  console.log(`DON'T WALK!`);
+}
+
+else if (trafficlight === `orange`){
+  console.log(`Traffic light is orange`)
+  console.log(`ATTENTION!`);
+}
+
+else if (trafficlight === `green`){
+  console.log(`Traffic light is green`)
+  console.log(`WALK`);
+}
 //??
 //??
 //??
@@ -39,4 +62,4 @@ WALK
 //??
 //??
 //??
-//??
+

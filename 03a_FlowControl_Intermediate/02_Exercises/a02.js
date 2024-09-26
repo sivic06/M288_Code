@@ -28,20 +28,45 @@ With age 65: You will get a 33.33% discount! Pay CHF 16.67.
  */
 'use strict';
 //Argumente auslesen (parsen)
-//??
-//??
-//??
-//??
 
-//message variable
+
+let myArg = process.argv.slice(2);
+
+let price = myArg[0]
+let age = myArg [1]
 let message;
+let discount;
+let priceWithDiscount
+
+if (price == undefined && age == undefined) {
+        message = `You need to define the price and the age! Try again.`
+} else if (age < 6) {
+        message = `With ${age}: Free entrance!`
+} else if (age > 6 && age < 16) {
+        discount = 50;
+        message = `With ${age}: You will get a ${discount}% discount!`
+} else if (age >= 65 || age === `stundent`) {
+        discount = 33;
+        message = `With/As a ${age}:You will get a ${discount}% discount!`
+} else {
+        discount = 0
+        message = `With ${age}: No discount!`
+}
+
+
+
+priceWithDiscount = message + `Pay CHF` + (price - price * discount / 100)
+console.log(priceWithDiscount)
+//message variable
+
 //if age and price is undefined ...
-//??
+
+
     //show message
 //??
 //else
 //??
-    let discount;
+    
     // If 6 under print message free entrance
 //??
         //show message

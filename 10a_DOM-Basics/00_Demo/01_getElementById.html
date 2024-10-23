@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Schnittstellen</title>
+</head>
+<body>
+<h1>Die HTML-DOM Schnittstelle</h1>
+<h2 id="msg">Frohes</h2>
+<script>
+    let wishes = document.getElementById('msg').innerHTML;
+    wishes += " Neues Jahr 2024!!!!!";
+    document.getElementById('msg').innerHTML = wishes;
+</script>
+</body>
+</html>

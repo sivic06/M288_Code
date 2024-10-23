@@ -1,24 +1,30 @@
 // Was gibt das folgende Programm aus?
+/*
 const x = 15 + 5;
 let y = 10 + 10;
 y = y + 7;
-console.log(x < y);
+console.log(x < y); // 20 < 27  2x // 3x true
+*
+
 
 // Geben Sie den String '68°F entspricht 20°C' auf der Konsole mit JavaScript aus.
-___ fahrneheit = ___ ;
-___ celsius = ____;
-console.log(``);
+let fahrneheit = 68;
+let celsius = 20;
+console.log(`${fahrneheit}°F entspricht ${celsius}°C`);
 
-console.log(`${fahrneheit} und ${celsius}`);
+//console.log(`${fahrneheit} und ${celsius}`);
+*
 
 // Geben Sie das vierte Element des Arrays fruechte auf der Konsole aus.
 let fruechte = ['Apfel', 'Banane', 'Mango', 'Ananas', 'Kiwi', 'Erdbeere'];
-____
+console.log(fruechte[3]);
 
+*/
 // Füllen Sie alle Lücken aus, damit auf der Konsole nur ‘Der Hund bellt.’ erscheint.
-___ tier = 'Hund';
-if (____ === ___) {
+let tier = 'Hund';
+if (tier === 'Hund') {
     console.log('Der Hund bellt.');
-} else if (____ === ____) {
+} else if (tier === 'Katze') {
     console.log('Die Katze miaut.');
 }
+    

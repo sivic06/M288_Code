@@ -1,6 +1,7 @@
 /*
  Examples - print array-elements with alternative loops
 */
+// run in terminal: npm i chalk
 //https://www.npmjs.com/package/chalk
 import chalk from 'chalk';
 const log = console.log;
